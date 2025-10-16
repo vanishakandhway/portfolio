@@ -45,14 +45,14 @@ import meslogo from './assets/education_logo/mes_logo.png';
 
 // Project Section Logo's
 import netflixlogo from './assets/work_logo/netflix_gpt.png';
-import quizapplogo from './assets/work_logo/quizapp.png';
+import tictactoelogo from './assets/work_logo/tictactoe.png';
 // import movierecLogo from './assets/work_logo/movie_rec.png';
 // import taskremLogo from './assets/work_logo/task_rem.png';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import profilelogo from './assets/work_logo/profile.png';
 
 
 export const SkillsInfo = [
@@ -73,25 +73,25 @@ export const SkillsInfo = [
       // { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
-  {
-    title: 'Backend',
-    skills: [
-      // { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      // { name: 'PostgreSQL', logo: postgreLogo },
-    ],
-  },
+  // {
+  //   title: 'Backend',
+  //   skills: [
+  //     // { name: 'Springboot', logo: springbootLogo },
+  //     { name: 'Node JS', logo: nodejsLogo },
+  //     { name: 'Express JS', logo: expressjsLogo },
+  //     { name: 'MySQL', logo: mysqlLogo },
+  //     { name: 'MongoDB', logo: mongodbLogo },
+  //     { name: 'Firebase', logo: firebaseLogo },
+  //     // { name: 'PostgreSQL', logo: postgreLogo },
+  //   ],
+  // },
   {
     title: 'Languages',
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
+      // { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       // { name: 'TypeScript', logo: typescriptLogo },
@@ -216,28 +216,32 @@ export const SkillsInfo = [
       image: netflixlogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API" ,"Firebase"],
       github: "https://github.com/vanishakandhway/GPTflix",
-      webapp: "/",
+      webapp: "https://gem-flix-rose.vercel.app/",
     },
     {
-      id: 1,
-      title: "AI Background Remover",
-      description:
-        "A full-stack AI-powered background removal SaaS application built with React.js and Clerk for authentication. This project showcases seamless integration of AI technology to instantly remove backgrounds from images with high accuracy. Featuring a modern, secure, and scalable architecture, it provides users with a smooth and efficient experience for editing images, making it perfect for businesses and creatives alike.",
-      image: removebgLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", " Tailwind CSS", "JavaScript"],
-      github: "https://github.com/vanishakandhway/AI-Background-Remover",
-      webapp: "/",
+  
+  id: 1,
+  title: "Tic Tac Toe",
+  description:
+    "A classic two-player Tic Tac Toe game built using JavaScript, HTML, and CSS. This interactive web app allows players to take turns placing Xs and Os on a 3x3 grid, highlights the winning combination, and announces the winner or a draw. The project demonstrates skills in DOM manipulation, event handling, and game logic implementation, making it a fun and educational project for beginners and enthusiasts alike.",
+  image: tictactoelogo, // make sure to import your image
+  tags: ["HTML", "CSS", "JavaScript", "Game Logic"],
+  github: "https://github.com/vanishakandhway/Tic-Tac_Toe",
+  webapp: "https://tic-tac-toe-ecru-iota-94.vercel.app/",
+
+
     },
-    {
-      id: 2,
-      title: "Quiz App",
-      description:
-        "An interactive and fully functional quiz application built with React.js, designed to test knowledge across various categories. The app features multiple-choice questions, real-time score tracking, and instant feedback. Built with reusable components and clean state management, it offers a smooth and responsive user experience. Perfect for learners, educators, or developers exploring React fundamentals.",
-      image: quizapplogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/vanishakandhway/Quiz-App",
-      webapp: "/",
-    },
+ {
+  id: 2,
+  title: "Personal Portfolio Website",
+  description:
+    "A modern and responsive personal portfolio website built using HTML, Tailwind CSS, and JavaScript. It showcases my projects, skills, and achievements in a clean, interactive layout. Features include dynamic project display, smooth navigation, responsive design for all devices, and integration with GitHub and live project links. This project highlights my front-end development skills and provides a professional platform to present my work.",
+  image: profilelogo, // import a screenshot of your portfolio
+  tags: ["HTML", "Tailwind CSS", "JavaScript", "Responsive Design"],
+  github: "https://github.com/vanishakandhway/portfolio",
+  webapp: "https://portfolio-two-hazel-97.vercel.app/",
+}
+
   //   {
   //     id: 3,
   //     title: "Email Validator NPM Package",

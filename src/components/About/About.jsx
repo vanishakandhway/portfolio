@@ -32,6 +32,7 @@ const About = () => {
                   "Frontend Developer",
                   // "UI/UX Designer",
                   "Coder",
+                  "Problem -Solver",
                 ]}
                 loop
                 cursor
@@ -47,7 +48,7 @@ const About = () => {
             I’m a full-stack developer with experience in building scalable web applications using the MERN stack. With strong frontend skills and a good grasp of DSA, I’m eager to apply my knowledge through an internship and contribute to real-world projects.</p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1Nvhvf7-6IACfk6EhTH8-6TPkbWB52TH6/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1sgSW5M-JUVoCIOh-D-IFRjeMzHH1V-5v/view"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
