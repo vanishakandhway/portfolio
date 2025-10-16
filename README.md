@@ -1,12 +1,50 @@
-# React + Vite
+# 🌐 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **3D interactive portfolio** built using **HTML, Tailwind CSS, and JavaScript**.  
+Showcases projects, skills, and interactive elements with smooth animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
+```
+3D-Portfolio/
+├── index.html # Main HTML file
+├── style.css # Custom styles (if any)
+├── script.js # JavaScript for interactivity/animations
+├── assets/ # Images, icons, and 3D model files
+│ ├── images/
+│ └── models/
+├── README.md # Project documentation
+└── tailwind.config.js # Tailwind CSS configuration
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+- Fully **3D interactive elements** for a modern portfolio look.
+- Smooth animations and transitions using JavaScript.
+- Built with **Tailwind CSS** for responsive design.
+- Sections for **About, Skills, Projects, and Contact**.
+- Works on **desktop and mobile devices**.
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5** – Structure of the website
+- **Tailwind CSS** – Styling and responsive design
+- **JavaScript** – Animations and interactive functionality
+
+---
+
+## 🎮 How to Run
+1. Clone or download the repository.
+2. Open `index.html` in any modern browser.
+3. Interact with the portfolio to explore 3D effects and animations.
+
+---
+
+## 💡 Credits
+- Built entirely by **vanisha kandhway**
+- Inspired by modern web design trends
+- 3D effects created with **CSS transforms & JavaScript**
